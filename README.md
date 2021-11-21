@@ -7,8 +7,8 @@
 This is simple dockerized tool for checking move rating from IMDB.
 
 ## Technologies
-Project is created with:
 Python 3.10.0 (container: python:latest, f48ea80eae5a) 
+
 Docker 20.10.10, build b485636
 
 ## Setup:
@@ -25,5 +25,6 @@ Docker 20.10.10, build b485636
 3. Check your movie rating!
 
     `docker run rmikl/omdb_api <NAME OF THE MOVIE>`
+    
     example: `docker run rmikl/omdb_api the office`
 
